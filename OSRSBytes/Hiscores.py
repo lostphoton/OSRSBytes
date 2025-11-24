@@ -209,7 +209,8 @@ class Hiscores(object):
                 'farming',
                 'runecrafting',
                 'hunter',
-                'construction'
+                'construction',
+                'sailing'
         ]
 
         for skill in self.__skills:
@@ -490,3 +491,4 @@ class Hiscores(object):
     def getBossGenerator(self):
         for boss in self.__bosses:
             yield boss
+
